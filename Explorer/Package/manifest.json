@@ -1,0 +1,11 @@
+{
+  "name": "Explorer",
+  "author": "Slatyo",
+  "description": "Adds an 'Explorer' skill that increases your map exploration radius as you explore. Level up by walking, running, swimming, jumping, and sailing. Server-synced configuration.",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Slatyo/Valheim-Explorer",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333",
+    "ValheimModding-Jotunn-2.26.1"
+  ]
+}
