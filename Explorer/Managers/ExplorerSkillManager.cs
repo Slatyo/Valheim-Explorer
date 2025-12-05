@@ -7,7 +7,7 @@ namespace Explorer.Managers
 {
     public class ExplorerSkillManager
     {
-        public const string SkillIdentifier = "com.explorer.skill.exploration";
+        public const string SkillIdentifier = "com.slatyo.explorer.skill.exploration";
         public static Skills.SkillType ExplorerSkillType { get; private set; }
 
         private Vector3 _lastPosition;

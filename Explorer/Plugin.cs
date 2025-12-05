@@ -12,7 +12,7 @@ namespace Explorer
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.explorer.valheim";
+        public const string PluginGUID = "com.slatyo.explorer";
         public const string PluginName = "Explorer";
         public const string PluginVersion = "1.0.0";
 
