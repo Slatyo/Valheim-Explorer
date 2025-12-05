@@ -41,6 +41,13 @@ namespace Explorer.Managers
                 { "skill_explorer_desc", JsonConfig.Instance.SkillDescription }
             });
 
+            // === GERMAN TRANSLATIONS ===
+            localization.AddTranslation("German", new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "skill_explorer", "Erkunder" },
+                { "skill_explorer_desc", "Enthüllt mehr von der Karte beim Erkunden. Steige durch Gehen, Laufen, Schwimmen, Springen und Segeln auf." }
+            });
+
             Plugin.Log.LogInfo($"Registered skill: {JsonConfig.Instance.SkillName}");
         }
 
